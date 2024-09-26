@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load the trained model
-model = tf.keras.models.load_model('cnn_tumor.keras')
+model = tf.keras.models.load_model('Sve_model.h5')
 
 # Define the prediction function
 def make_prediction(img, model):
